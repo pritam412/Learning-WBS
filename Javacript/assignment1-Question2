@@ -1,0 +1,10 @@
+const getInitials = (firstName, lastName) => {
+    const firstInitial = firstName[0].toUpperCase();
+    const lastInitial = lastName[0].toUpperCase();
+    return firstInitial + lastInitial;
+};
+
+
+let initials = getInitials("Roger", "Waters");
+
+console.log(initials);  // Output: 'RW'
